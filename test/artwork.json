@@ -1,0 +1,131 @@
+{
+  "identification": {
+    "id": null,
+    "extId": [
+      {
+        "oneprove": "58b429b31ccbb00004d85fb3"
+      }
+    ],
+    "salt": null
+  },
+  "fingerprints": [
+    {
+      "fingerprintType": "oneprove",
+      "fingerprint": "58b429f81ccbb00004d85fb4",
+      "fingerprintData": [
+        {
+          "key": "location",
+          "value": {
+            "height": 0,
+            "x": 0,
+            "y": 0,
+            "width": 0
+          }
+        },
+        {
+          "key": "image1",
+          "value": "https://oneprove.s3.eu-central-1.amazonaws.com/D8C63F6B-D2C1-4332-A286-E78DC3430AE9"
+        },
+        {
+          "key": "image2",
+          "value": "https://oneprove.s3.eu-central-1.amazonaws.com/4AA4C893-42FE-4B5F-A020-AC4AD0F55958"
+        },
+        {
+          "key": "createdAt",
+          "value": "2017-02-27T13:30:32.166Z"
+        }
+      ]
+    }
+  ],
+  "tokenization": null,
+  "parts": [],
+  "owner": {
+    "ownerID": null,
+    "extID": [
+      {
+        "oneprove": "587cb4b424cc21000416c177"
+      }
+    ]
+  },
+  "access": [],
+  "information": {
+    "name": "full flow",
+    "desc": null,
+    "category": [],
+    "type": null,
+    "location": null,
+    "files": [
+      {
+        "type": "overview",
+        "url": "https://oneprove.s3.eu-central-1.amazonaws.com/8A4BEBA5-AF79-4E20-9AC8-332FABADA79E",
+        "label": "Overview"
+      },
+      {
+        "type": "thumbnail",
+        "url": "https://oneprove.s3.eu-central-1.amazonaws.com/83398BAB-C342-4C44-A886-F28DEDB70374",
+        "label": "Thumbnail"
+      }
+    ],
+    "status": [
+      {
+        "type": "createdAt",
+        "timestamp": "2017-02-27T13:29:23.101Z"
+      },
+      {
+        "type": "authorizedAt",
+        "timestamp": "2017-02-27T13:30:32.166Z"
+      }
+    ],
+    "otherDate": [
+      {
+        "key": "transferRequest",
+        "value": {
+          "state": "waiting",
+          "_id": "5b788478a6a43a4eb6ff7233",
+          "updatedAt": "2018-08-18T20:41:28.464Z",
+          "createdAt": "2018-08-18T20:41:28.464Z",
+          "new_owner_email": "martin.popelak@siemens.com",
+          "artwork": "58b429b31ccbb00004d85fb3",
+          "owner": "587cb4b424cc21000416c177",
+          "transfer_code": "Y98L43NAA",
+          "__v": 0
+        }
+      },
+      {
+        "key": "style"
+      },
+      {
+        "key": "medium"
+      },
+      {
+        "key": "year",
+        "value": 2017
+      }
+    ]
+  },
+  "properties": {
+    "width": 100,
+    "height": 100,
+    "physicalProperty": []
+  },
+  "manufacturingInformation": {
+    "manufacturer": null,
+    "manufacturerID": null,
+    "manufaacturerExtID": [],
+    "date": null,
+    "location": null,
+    "factory": null,
+    "type": null,
+    "make": null,
+    "model": null,
+    "edition": null,
+    "editionVolume": null,
+    "manufacturingData": null
+  },
+  "lifecycleInformation": {
+    "type": null,
+    "address": null,
+    "value": null,
+    "metadata": null
+  }
+}

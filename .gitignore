@@ -1,0 +1,8 @@
+build/
+node_modules/
+.idea/
+.vscode/
+coverage.json
+coverage/
+coverageEnv/
+flat/

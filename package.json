@@ -1,0 +1,40 @@
+{
+  "name": "veracity-register",
+  "version": "1.0.0",
+  "description": "Smart contracts allowing storage for Veracity Protocol Light-infrastructure",
+  "main": "truffle-config.js",
+  "directories": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/ValueProtocol/veracity-register.git"
+  },
+  "scripts": {
+    "solium": "./node_modules/.bin/solium -d contracts",
+    "truffle": "./node_modules/.bin/truffle",
+    "test": "./node_modules/.bin/truffle test",
+    "coverage": "./node_modules/.bin/solidity-coverage",
+    "ganache": "./node_modules/.bin/ganache-cli -m 'gadget luxury river width frost salmon input defense embark card banner raccoon'",
+    "migrate": "./node_modules/.bin/truffle migrate --network ganache_cli --reset"
+  },
+  "author": "Lumir Mrkva",
+  "license": "EPL",
+  "bugs": {
+    "url": "https://github.com/ValueProtocol/veracity-register/issues"
+  },
+  "homepage": "https://github.com/ValueProtocol/veracity-register#readme",
+  "dependencies": {
+    "openzeppelin-solidity": "2.1.1"
+  },
+  "devDependencies": {
+    "dotenv": "^5.0.0",
+    "ganache-cli": "^6.1.8",
+    "elliptic": "^6.4.1",
+    "solidity-coverage": "^0.5.11",
+    "solium": "^1.2.2",
+    "solium-plugin-zeppelin": "^0.0.2",
+    "truffle": "^5.0.1",
+    "truffle-hdwallet-provider": "0.0.6"
+  }
+}
