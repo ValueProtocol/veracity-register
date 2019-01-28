@@ -4,8 +4,10 @@ const ec = new EC('secp256k1');
 
 var exports = module.exports = {};
 
-exports.wei = (number, unit) => web3.toWei(number, unit);
-exports.ether = (number) => web3.fromWei(number, "ether");
+
+let bn = exports.bn = (number) => new web3.utils.BN(number);
+exports.wei = (number, unit) => web3.utils.toWei(bn(number), unit);
+exports.ether = (number) => web3.utils.fromWei(bn(number), "ether");
 
 exports.assertThrow = async (promise) => {
     try {
